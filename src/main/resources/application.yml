@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    com.diegoferbp.kotlin.webflux: DEBUG
+    reactor.netty: INFO
+
+spring:
+  webflux:
+    base-path: /
+  application:
+    name: springboot-webflux
